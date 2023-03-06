@@ -1,39 +1,139 @@
-.SideBar {
-    background-color: royalblue;
-    color: aquamarine;
+body{
+    background-color: gray; 
+    background-attachment: cover;
+}
+.sidebar {
+    background-color: white;
+    color: green;
     width: 200px;
     height: 100%;
     position: fixed;
-    top-padding: 20px;
+    padding-top: 100px;
     top: 0;
-    bottom: 0;
     left: 0;
-
 }
-ul {
+
+a{
+    text-decoration: none;
+}
+.sidebar ul {
     list-style: none;
     margin: 10px;
     padding: 20px;
 }
-li{
-    padding: 0px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+.sidebar li {
+    padding: 15px 20px;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
-    
-
 }
-a{
+
+.sidebar a {
     text-decoration: none;
-    color: blue;
+    text-transform: uppercase;
+    color: green;
+    border: 1px solid black;
+    padding: 2px;
 }
-a:hover{
-    background-color: blueviolet;
-    color: greenyellow;
-}
-.rounded-image{
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    overflow-y: none;
 
+a:hover{
+    background-color: white;
+    color: black;
+}
+
+/*.sidebar:hover {
+    background-color: white;
+    color: black;
+    transition-delay: 200ms;
+}*/
+
+.rounded-image {
+    margin: 10px;
+    padding-left: 15px;
+    height: 120px;
+    width: 120px;  
+
+    display: block;
+    overflow-y: none;
+}
+
+img{
+    border-radius: 50px;
+    overflow-y:auto ;
+    border-radius: 50%;
+}
+
+.content{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 60px;
+    color: white;
+}
+
+.name{
+    font-size: 30px;
+    color: purple;
+    font-style: italic;
+    padding: 20px;
+}
+
+.main-content{
+    margin-left: 200px;
+
+}
+
+h1{
+    font-size: 40px;
+}
+
+.introduction-text{
+    font-size: 20px;
+}
+
+.contact-me {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.contact-me a{
+    border: 1px solid black;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+
+}
+
+.contact-me a:hover{
+    background-color: white;
+    color: black;
+    transition: 200ms ease-in-out;
+
+}
+
+.work ul{
+    font-size: 20px;
+}
+.read-more{
+    padding: 2px;
+}
+
+.read-more a{
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    padding: 2px;
+    border: 1px solid black;
+
+}
+
+.read-more a:hover{
+    background-color: white;
+    color: black;
+    transition: 200ms ease-in-out;
+} 
+
+.work{
+    margin-left: 60px;
 }
