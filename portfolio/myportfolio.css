@@ -1,0 +1,14 @@
+#div1 {
+    background-color: aqua;
+}
+
+body {
+    background-color: aqua;
+}
+h1 {
+    text-underline-position:below;
+}
+
+#table2 {
+    border:double;
+}
